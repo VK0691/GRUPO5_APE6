@@ -1,13 +1,11 @@
-# APE 6 — Evaluación y Validación de Interfaces
+# APE 6 — Evaluación y Validación + Métodos de Evaluación
 
 ## Interacción Humano–Computador
 
-**Universidad:** Universidad Técnica de Ambato  
 **Carrera:** Software  
-**Nivel:** Quinto semestre  
+**Nivel:** Quinto  
 **Paralelo:** B  
-**Unidad:** Unidad Evaluativa II  
-**Grupo:** Grupo 5  
+**Grupo:** G5  
 **Año:** 2026  
 
 ---
@@ -27,329 +25,390 @@
 
 **APE asociado:** APE 6 — Fases 1 a 4.
 
-**Fecha de exposición:** 17/11/2026 - 20/11/2026.
+La exposición se desarrollará como un pequeño **laboratorio de usabilidad**, en el cual los cuatro integrantes tendrán responsabilidades equivalentes tanto en la preparación, GitHub, ejecución práctica y defensa.
 
 ---
 
-# 🎯 Objetivo del proyecto
+# ❓ Pregunta inicial
 
-Aplicar técnicas de evaluación y validación de interfaces sobre el proyecto desarrollado durante la asignatura de Interacción Humano–Computador, utilizando métodos de evaluación de usabilidad que permitan identificar problemas, analizar evidencias y proponer mejoras concretas sobre la interfaz.
+> **¿Una interfaz que funciona técnicamente puede ser una mala interfaz?**
+
+Sí.
+
+Una interfaz puede funcionar correctamente desde el punto de vista técnico y, al mismo tiempo, presentar problemas de:
+
+- Usabilidad.
+- Navegación.
+- Comprensión.
+- Consistencia.
+- Feedback.
+- Prevención de errores.
+- Accesibilidad.
+- Eficiencia.
+
+Por esta razón, una interfaz no debe evaluarse únicamente comprobando si funciona, sino también analizando cómo interactúan los usuarios con ella.
 
 ---
 
-# 📋 Responsabilidad del Grupo 5
+# 🎯 Objetivo general
 
-El Grupo 5 debe desarrollar el APE 6 completo y utilizarlo como ejemplo de referencia para la clase.
+Evaluar un flujo principal de la interfaz del proyecto mediante tareas, métricas y al menos dos métodos de evaluación, con el propósito de identificar problemas de usabilidad, clasificarlos por severidad y convertir los resultados en un backlog priorizado de mejoras dentro de GitHub.
 
-El proceso general será:
+---
+
+# 🎯 Objetivos específicos
+
+1. Diseñar tareas representativas que permitan evaluar la interacción del usuario con la interfaz.
+
+2. Aplicar una prueba de usabilidad moderada y una evaluación heurística para identificar problemas de interacción.
+
+3. Registrar métricas, hallazgos y evidencias que permitan justificar las mejoras propuestas.
+
+4. Priorizar los problemas encontrados según su severidad e impacto.
+
+5. Registrar las mejoras propuestas mediante un backlog dentro de GitHub.
+
+---
+
+# 🧪 Laboratorio de usabilidad
+
+La exposición será convertida en una demostración práctica.
+
+Los cuatro integrantes participarán directamente.
+
+Los roles serán:
+
+| Integrante | Rol principal durante la demostración |
+|---|---|
+| Carlos | Moderador |
+| Karen | Usuario de prueba |
+| Bryan | Registro de métricas |
+| Thomas | Observador y evaluador heurístico |
+
+Sin embargo, todos tendrán responsabilidades adicionales para que la carga de trabajo sea equivalente.
+
+---
+
+# ⚖️ Distribución de responsabilidades
+
+## 👨‍💻 Carlos — Moderación, planificación y hallazgos
+
+### Responsabilidades
+
+Carlos se encargará de:
+
+- Preparar el plan de evaluación.
+- Definir el objetivo de la prueba.
+- Preparar el escenario inicial.
+- Crear una de las tres tareas de evaluación.
+- Moderar la prueba de usabilidad.
+- Registrar observaciones cualitativas.
+- Identificar al menos un hallazgo.
+- Proponer una mejora asociada.
+- Crear al menos un Issue en GitHub.
+- Realizar commits en su rama.
+- Explicar su parte durante la exposición.
+
+### Evidencia en GitHub
+
+Carlos deberá agregar:
 
 ```text
-Planificación
-      ↓
-Pilotaje
-      ↓
-Evaluación
-      ↓
-Recolección de datos
-      ↓
-Análisis
-      ↓
-Triangulación
-      ↓
-Priorización
-      ↓
-Backlog de mejoras
+docs/
+├── plan-evaluacion.md
+└── tarea-01.md
+```
+
+También deberá crear al menos:
+
+```text
+[UX-01] Mejora relacionada con un problema encontrado
 ```
 
 ---
 
-# ✅ Actividades obligatorias
-
-Según la planificación de la asignatura, el grupo debe:
-
-- Diseñar una evaluación de usabilidad.
-- Definir participantes.
-- Diseñar tareas.
-- Preparar un consentimiento para los participantes.
-- Realizar un pilotaje.
-- Aplicar al menos dos métodos de evaluación.
-- Registrar métricas.
-- Registrar evidencias.
-- Analizar los resultados.
-- Crear una matriz de hallazgos.
-- Clasificar los problemas por severidad.
-- Triangular los resultados obtenidos.
-- Construir un backlog de mejoras.
-- Presentar las conclusiones.
-- Mantener evidencia técnica dentro de GitHub.
-
----
-
-# 👨‍💻 Distribución del trabajo
-
-## Carlos — Introducción, GitHub y cierre
-
-Carlos tendrá una parte principalmente organizativa y sencilla.
+# 👩‍💻 Karen — Usuario, tareas y experiencia observada
 
 ### Responsabilidades
 
-- Crear o ayudar a organizar el repositorio de GitHub.
-- Crear la estructura inicial de carpetas.
-- Colocar información general en el README.
-- Organizar las evidencias entregadas por los demás integrantes.
-- Colocar capturas de pantalla dentro del repositorio.
-- Preparar la portada de la presentación.
-- Preparar las conclusiones generales.
-- Mostrar el antes y después de la interfaz.
-- Revisar que todos tengan commits en GitHub.
+Karen se encargará de:
 
-### Parte de exposición
+- Crear una de las tareas de evaluación.
+- Preparar el perfil del usuario.
+- Ejecutar las tareas durante la demostración.
+- Aplicar la técnica de pensamiento en voz alta.
+- Expresar dudas o problemas reales durante la interacción.
+- Registrar su experiencia después de cada tarea.
+- Identificar al menos un hallazgo.
+- Proponer una mejora.
+- Crear al menos un Issue en GitHub.
+- Realizar commits en su rama.
+- Explicar su parte durante la exposición.
 
-Carlos realizará:
+### Evidencia en GitHub
 
-- Presentación del grupo.
-- Introducción al tema.
-- Explicación breve de evaluación y validación.
-- Presentación del proyecto que será evaluado.
-- Cierre de la exposición.
-- Mostrar GitHub.
-- Mostrar el antes y después.
+Karen deberá agregar:
 
----
+```text
+docs/
+├── participante.md
+└── tarea-02.md
+```
 
-# 👩‍💻 Karen — Pilotaje y prueba de usabilidad
+Además:
 
-Karen será responsable principalmente del proceso de pruebas con usuarios.
-
-### Responsabilidades
-
-- Definir el perfil de participantes.
-- Crear el consentimiento informado.
-- Diseñar las tareas de evaluación.
-- Crear el escenario de prueba.
-- Elaborar el guion del moderador.
-- Realizar el pilotaje.
-- Registrar problemas encontrados durante el pilotaje.
-- Aplicar la prueba de usabilidad.
-- Registrar observaciones de usuarios.
-
-### Parte de exposición
-
-Karen explicará:
-
-- Participantes.
-- Tareas.
-- Escenario.
-- Consentimiento.
-- Pilotaje.
-- Correcciones realizadas antes de la evaluación definitiva.
+```text
+[UX-02] Mejora relacionada con experiencia del usuario
+```
 
 ---
 
-# 👨‍💻 Bryan — Métodos y métricas
-
-Bryan se encargará principalmente de los métodos de evaluación y resultados cuantitativos.
+# 👨‍💻 Bryan — Métricas y análisis cuantitativo
 
 ### Responsabilidades
+
+Bryan se encargará de:
+
+- Crear una de las tareas de evaluación.
+- Preparar la tabla de métricas.
+- Registrar tiempos.
+- Registrar éxito o fracaso.
+- Registrar errores.
+- Registrar intentos.
+- Calcular resultados.
+- Identificar al menos un hallazgo a partir de los datos.
+- Proponer una mejora.
+- Crear al menos un Issue en GitHub.
+- Realizar commits en su rama.
+- Explicar los resultados durante la exposición.
+
+### Evidencia en GitHub
+
+Bryan deberá agregar:
+
+```text
+docs/
+├── tarea-03.md
+└── metricas.md
+```
+
+Además:
+
+```text
+[UX-03] Mejora basada en métricas
+```
+
+---
+
+# 👨‍💻 Thomas — Heurísticas, severidad y backlog
+
+### Responsabilidades
+
+Thomas se encargará de:
 
 - Preparar la evaluación heurística.
-- Aplicar las heurísticas de Nielsen.
-- Registrar problemas encontrados.
-- Definir las métricas.
-- Registrar tiempos.
-- Registrar errores.
-- Registrar tasa de éxito.
-- Organizar los resultados cuantitativos.
-- Crear tablas o gráficos.
-
-### Parte de exposición
-
-Bryan explicará:
-
-- Métodos utilizados.
-- Evaluación heurística.
-- Métricas.
-- Resultados cuantitativos.
-- Problemas encontrados mediante las heurísticas.
-
----
-
-# 👨‍💻 Thomas — Hallazgos, severidad y backlog
-
-Thomas se encargará del análisis final de los resultados.
-
-### Responsabilidades
-
-- Crear la matriz de hallazgos.
+- Observar al usuario durante la prueba.
+- Comparar los problemas encontrados con las heurísticas de Nielsen.
 - Clasificar la severidad.
-- Comparar los resultados de los métodos.
-- Realizar la triangulación.
-- Priorizar problemas.
-- Crear el backlog de mejoras.
-- Proponer soluciones.
-- Organizar las mejoras por prioridad.
+- Crear la matriz de hallazgos.
+- Consolidar los resultados de Carlos, Karen y Bryan.
+- Crear el backlog final.
+- Crear al menos un Issue en GitHub.
+- Realizar commits en su rama.
+- Explicar los resultados durante la exposición.
 
-### Parte de exposición
+### Evidencia en GitHub
 
-Thomas explicará:
-
-- Hallazgos principales.
-- Severidad.
-- Triangulación.
-- Priorización.
-- Backlog de mejoras.
-
----
-
-# 🧪 Métodos de evaluación
-
-Para el proyecto se utilizarán principalmente dos métodos.
-
-## Método 1 — Prueba de usabilidad
-
-Se evaluará a usuarios realizando diferentes tareas dentro del sistema.
-
-Durante cada tarea se podrán registrar:
-
-- Tiempo empleado.
-- Éxito o fracaso.
-- Número de errores.
-- Número de intentos.
-- Dificultades encontradas.
-- Comentarios del usuario.
-- Observaciones del evaluador.
-
-Ejemplo:
-
-| Tarea | Éxito | Tiempo | Errores |
-|---|---:|---:|---:|
-| T01 | Sí | Pendiente | Pendiente |
-| T02 | Sí/No | Pendiente | Pendiente |
-| T03 | Sí/No | Pendiente | Pendiente |
-| T04 | Sí/No | Pendiente | Pendiente |
-
-> Los valores reales serán registrados durante la evaluación.
-
----
-
-# 🔎 Método 2 — Evaluación heurística de Nielsen
-
-Se utilizarán las heurísticas de Nielsen para identificar problemas dentro de la interfaz.
-
-Las heurísticas consideradas serán:
-
-1. Visibilidad del estado del sistema.
-2. Correspondencia entre el sistema y el mundo real.
-3. Control y libertad del usuario.
-4. Consistencia y estándares.
-5. Prevención de errores.
-6. Reconocimiento antes que recuerdo.
-7. Flexibilidad y eficiencia de uso.
-8. Diseño estético y minimalista.
-9. Ayudar al usuario a reconocer y recuperarse de errores.
-10. Ayuda y documentación.
-
-Ejemplo:
-
-| Heurística | Problema | Evidencia | Severidad |
-|---|---|---|---:|
-| Visibilidad del sistema | Pendiente | Pendiente | Pendiente |
-| Prevención de errores | Pendiente | Pendiente | Pendiente |
-| Consistencia | Pendiente | Pendiente | Pendiente |
-
----
-
-# 📝 Tareas de evaluación
-
-Las tareas definitivas dependerán de las funcionalidades del proyecto.
-
-Una estructura inicial puede ser:
-
-| ID | Tarea |
-|---|---|
-| T01 | Iniciar sesión |
-| T02 | Localizar una función principal |
-| T03 | Registrar información |
-| T04 | Consultar información |
-| T05 | Completar una acción importante del sistema |
-
-Cada tarea deberá tener:
-
-- Objetivo.
-- Punto inicial.
-- Resultado esperado.
-- Tiempo.
-- Errores.
-- Observaciones.
-
----
-
-# 🧪 Pilotaje
-
-Antes de realizar la evaluación definitiva se realizará una prueba piloto.
-
-El proceso será:
+Thomas deberá agregar:
 
 ```text
-Diseño de tareas
-       ↓
-Prueba piloto
-       ↓
-Detección de problemas
-       ↓
-Corrección de tareas
-       ↓
-Evaluación definitiva
+docs/
+├── heuristicas.md
+├── hallazgos.md
+└── backlog.md
 ```
 
-El pilotaje permitirá detectar:
+Además:
 
-- Tareas difíciles de entender.
-- Instrucciones ambiguas.
-- Problemas en los tiempos.
-- Errores en el formulario de evaluación.
-- Problemas en la metodología.
+```text
+[UX-04] Mejora basada en evaluación heurística
+```
+
+---
+
+# ✅ Equilibrio del trabajo
+
+Para garantizar que todos participen por igual, cada integrante deberá realizar:
+
+- Una contribución documental.
+- Una actividad práctica.
+- Un hallazgo.
+- Una propuesta de mejora.
+- Un Issue en GitHub.
+- Commits propios.
+- Una parte de la exposición.
+- Participación en la defensa.
+
+---
+
+# 🔬 Método 1 — Prueba de usabilidad moderada
+
+La prueba de usabilidad permitirá observar cómo una persona realiza tareas dentro de la aplicación.
+
+Durante la prueba:
+
+- Carlos moderará.
+- Karen realizará las tareas.
+- Bryan registrará métricas.
+- Thomas observará problemas heurísticos.
+
+---
+
+# 🎙️ Guion del moderador
+
+Carlos podrá iniciar diciendo:
+
+> Imagina que es la primera vez que utilizas esta aplicación. Voy a pedirte que realices tres tareas. No voy a indicarte dónde debes hacer clic. Mientras utilizas el sistema, describe en voz alta lo que intentas hacer, lo que esperas encontrar y cualquier elemento que te genere dudas.
+
+Durante la evaluación, el moderador deberá evitar:
+
+- Decir dónde hacer clic.
+- Explicar la navegación.
+- Dar pistas.
+- Corregir inmediatamente al usuario.
+
+---
+
+# 📝 Tareas
+
+Se realizarán aproximadamente tres tareas.
+
+Cada integrante preparará una.
+
+---
+
+## Tarea 1 — Carlos
+
+### Objetivo
+
+Evaluar una función inicial o principal de la aplicación.
+
+### Ejemplo
+
+```text
+Iniciar sesión y acceder a una sección determinada del sistema.
+```
+
+---
+
+## Tarea 2 — Karen
+
+### Objetivo
+
+Evaluar la facilidad para localizar una funcionalidad.
+
+### Ejemplo
+
+```text
+Encontrar una determinada opción y registrar información.
+```
+
+---
+
+## Tarea 3 — Bryan
+
+### Objetivo
+
+Evaluar la finalización de una operación importante.
+
+### Ejemplo
+
+```text
+Consultar, modificar o completar una operación del sistema.
+```
 
 ---
 
 # 📊 Métricas
 
-Las principales métricas serán:
+Bryan registrará las siguientes métricas:
 
-## Tasa de éxito
+- Tiempo.
+- Éxito.
+- Número de errores.
+- Número de intentos.
+- Dificultad observada.
+- Comentarios del usuario.
 
-Porcentaje de usuarios que completan correctamente una tarea.
+Ejemplo:
+
+| Tarea | Éxito | Tiempo | Errores | Intentos | Observación |
+|---|---|---:|---:|---:|---|
+| T01 | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
+| T02 | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
+| T03 | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
+
+Los valores deberán obtenerse durante la prueba real.
+
+---
+
+# 📈 Tasa de éxito
+
+La tasa de éxito puede calcularse mediante:
 
 ```text
 Tasa de éxito =
-Tareas completadas correctamente / Total de intentos
+Tareas completadas correctamente
+-------------------------------- x 100
+Total de tareas
 ```
 
-## Tiempo por tarea
+Ejemplo:
 
-Se registrará cuánto tarda el participante en completar cada actividad.
+```text
+2 tareas completadas
+-------------------- x 100 = 66,7 %
+3 tareas
+```
 
-## Número de errores
+---
 
-Se registrarán:
+# 🔎 Método 2 — Evaluación heurística
 
-- Errores de navegación.
-- Selecciones incorrectas.
-- Retrocesos.
-- Confusiones.
-- Acciones que no producen el resultado esperado.
+Thomas aplicará una evaluación heurística tomando como referencia los principios de Nielsen.
 
-## Observaciones
+Se considerarán:
 
-También se registrarán comentarios y comportamientos de los participantes.
+1. Visibilidad del estado del sistema.
+2. Correspondencia entre sistema y mundo real.
+3. Control y libertad del usuario.
+4. Consistencia y estándares.
+5. Prevención de errores.
+6. Reconocimiento antes que recuerdo.
+7. Flexibilidad y eficiencia.
+8. Diseño estético y minimalista.
+9. Recuperación ante errores.
+10. Ayuda y documentación.
+
+---
+
+# 📋 Evaluación heurística
+
+Ejemplo:
+
+| ID | Heurística | Problema | Evidencia |
+|---|---|---|---|
+| H01 | Visibilidad | Pendiente | Pendiente |
+| H02 | Prevención de errores | Pendiente | Pendiente |
+| H03 | Consistencia | Pendiente | Pendiente |
 
 ---
 
 # 🔥 Severidad
 
-Los problemas encontrados podrán clasificarse con una escala como la siguiente:
+Los problemas serán clasificados usando la siguiente escala:
 
-| Nivel | Descripción |
+| Nivel | Significado |
 |---:|---|
 | 0 | No representa un problema |
 | 1 | Problema cosmético |
@@ -361,15 +420,16 @@ Los problemas encontrados podrán clasificarse con una escala como la siguiente:
 
 # 🔍 Matriz de hallazgos
 
-Los resultados se organizarán mediante una matriz.
+Cada integrante deberá aportar al menos un hallazgo.
 
 Ejemplo:
 
-| ID | Hallazgo | Método | Evidencia | Severidad | Recomendación |
+| ID | Hallazgo | Detectado por | Método | Severidad | Mejora |
 |---|---|---|---|---:|---|
-| H01 | Pendiente | Usabilidad | EV01 | Pendiente | Pendiente |
-| H02 | Pendiente | Heurística | EV02 | Pendiente | Pendiente |
-| H03 | Pendiente | Ambos | EV03 | Pendiente | Pendiente |
+| H01 | Pendiente | Carlos | Usabilidad | Pendiente | Pendiente |
+| H02 | Pendiente | Karen | Usuario | Pendiente | Pendiente |
+| H03 | Pendiente | Bryan | Métricas | Pendiente | Pendiente |
+| H04 | Pendiente | Thomas | Heurística | Pendiente | Pendiente |
 
 ---
 
@@ -377,113 +437,214 @@ Ejemplo:
 
 La triangulación permitirá comparar diferentes fuentes de información.
 
-La idea es comprobar si un mismo problema aparece mediante diferentes métodos.
-
-Ejemplo:
-
 ```text
-             USUARIO
-                ↓
-            HALLAZGO
-           ↙        ↘
-      MÉTRICAS    HEURÍSTICAS
+              USUARIO
+                 ↓
+              PROBLEMA
+             ↙       ↘
+        MÉTRICAS   HEURÍSTICAS
 ```
 
-Un problema tendrá mayor respaldo cuando aparezca en:
+Un hallazgo tendrá mayor respaldo cuando coincida con:
 
-- Observaciones de usuarios.
-- Resultados cuantitativos.
-- Evaluación heurística.
+- Dificultades observadas.
+- Comentarios del usuario.
+- Tiempo elevado.
+- Número de errores.
+- Incumplimiento de una heurística.
 
 Ejemplo:
 
 ```text
 Usuario no encuentra una opción
             +
-Tiempo elevado en la tarea
+Tiempo elevado
             +
-Incumplimiento de una heurística
+Errores repetidos
+            +
+Problema heurístico
             ↓
-Hallazgo confirmado
+Hallazgo con evidencia sólida
 ```
 
 ---
 
-# 📋 Backlog de mejoras
+# 🧩 Ejemplo de triangulación
 
-Después del análisis se construirá un backlog de mejoras.
+Supongamos que Karen tarda demasiado en encontrar una opción.
+
+Se puede registrar:
+
+```text
+Usuario:
+"No encuentro dónde registrar esto."
+
+Métrica:
+52 segundos.
+
+Errores:
+3 clics incorrectos.
+
+Heurística:
+Visibilidad del estado / reconocimiento.
+
+Resultado:
+Problema confirmado.
+```
+
+---
+
+# 📌 Backlog de mejoras
+
+Después de realizar la evaluación se construirá un backlog.
 
 Ejemplo:
 
-| Prioridad | Mejora | Hallazgo | Severidad | Esfuerzo |
+| Prioridad | Hallazgo | Mejora | Severidad | Responsable |
 |---|---|---|---:|---|
-| Alta | Pendiente | H01 | 4 | Medio |
-| Alta | Pendiente | H02 | 3 | Bajo |
-| Media | Pendiente | H03 | 2 | Bajo |
-| Baja | Pendiente | H04 | 1 | Bajo |
+| Alta | H01 | Pendiente | 4 | Carlos |
+| Alta | H02 | Pendiente | 3 | Karen |
+| Media | H03 | Pendiente | 2 | Bryan |
+| Media | H04 | Pendiente | 2 | Thomas |
 
-Las mejoras podrán clasificarse como:
+---
+
+# 🧾 Issues de GitHub
+
+Cada integrante deberá crear al menos un Issue.
+
+Ejemplo:
 
 ```text
-ALTA
-↓
-Problemas críticos o importantes.
+[UX-01] Mejorar visibilidad del botón principal
+```
 
-MEDIA
-↓
-Problemas que afectan parcialmente la experiencia.
+```text
+[UX-02] Mejorar feedback después de una operación
+```
 
-BAJA
-↓
-Mejoras visuales o secundarias.
+```text
+[UX-03] Reducir cantidad de pasos de una tarea
+```
+
+```text
+[UX-04] Mejorar mensajes de error
+```
+
+---
+
+# 🌿 Ramas de Git
+
+Cada integrante trabajará en su propia rama.
+
+```text
+main
+│
+├── feature/carlos-planificacion
+├── feature/karen-usuario
+├── feature/bryan-metricas
+└── feature/thomas-heuristicas
+```
+
+---
+
+# 👨 Rama Carlos
+
+```bash
+git checkout -b feature/carlos-planificacion
+```
+
+Commits sugeridos:
+
+```text
+docs: agregar plan de evaluacion
+
+docs: agregar tarea 01
+
+docs: registrar hallazgo de usabilidad
+```
+
+---
+
+# 👩 Rama Karen
+
+```bash
+git checkout -b feature/karen-usuario
+```
+
+Commits sugeridos:
+
+```text
+docs: agregar perfil de usuario
+
+docs: agregar tarea 02
+
+docs: registrar experiencia de usuario
+```
+
+---
+
+# 👨 Rama Bryan
+
+```bash
+git checkout -b feature/bryan-metricas
+```
+
+Commits sugeridos:
+
+```text
+docs: agregar tarea 03
+
+docs: crear tabla de metricas
+
+docs: registrar resultados cuantitativos
+```
+
+---
+
+# 👨 Rama Thomas
+
+```bash
+git checkout -b feature/thomas-heuristicas
+```
+
+Commits sugeridos:
+
+```text
+docs: agregar evaluacion heuristica
+
+docs: agregar matriz de hallazgos
+
+docs: crear backlog de mejoras
 ```
 
 ---
 
 # 📂 Estructura del repositorio
 
-La estructura propuesta será:
-
 ```text
-IHC-APE6-Grupo5/
+IHC-APE6-G5/
 │
 ├── README.md
 │
 ├── docs/
-│   │
-│   ├── 01-planificacion/
-│   │   ├── plan-evaluacion.md
-│   │   ├── objetivos.md
-│   │   └── participantes.md
-│   │
-│   ├── 02-pilotaje/
-│   │   ├── tareas.md
-│   │   ├── consentimiento.md
-│   │   ├── guion-moderador.md
-│   │   └── resultados-piloto.md
-│   │
-│   ├── 03-evaluacion/
-│   │   ├── prueba-usabilidad.md
-│   │   ├── evaluacion-heuristica.md
-│   │   └── metricas.md
-│   │
-│   ├── 04-resultados/
-│   │   ├── hallazgos.md
-│   │   ├── severidad.md
-│   │   ├── triangulacion.md
-│   │   └── backlog.md
-│   │
-│   └── 05-conclusiones/
-│       └── conclusiones.md
+│   ├── plan-evaluacion.md
+│   ├── participante.md
+│   ├── tarea-01.md
+│   ├── tarea-02.md
+│   ├── tarea-03.md
+│   ├── metricas.md
+│   ├── heuristicas.md
+│   ├── hallazgos.md
+│   └── backlog.md
 │
 ├── evidencias/
-│   ├── pilotaje/
-│   ├── evaluacion/
 │   ├── capturas/
+│   ├── metricas/
 │   └── resultados/
 │
 ├── presentacion/
-│   └── presentacion-grupo5.pdf
+│   └── exposicion-g5.pdf
 │
 └── proyecto/
     └── codigo-fuente/
@@ -491,636 +652,478 @@ IHC-APE6-Grupo5/
 
 ---
 
-# 🌿 Organización de ramas Git
+# ⏱️ Plan de trabajo para 5 horas
 
-Cada integrante trabajará en una rama independiente.
+El trabajo deberá completarse en aproximadamente cinco horas.
+
+---
+
+## Hora 1 — Preparación
+
+### Carlos
+
+- Crear plan de evaluación.
+- Definir escenario.
+- Crear tarea 1.
+
+### Karen
+
+- Definir usuario.
+- Crear tarea 2.
+
+### Bryan
+
+- Crear tarea 3.
+- Crear tabla de métricas.
+
+### Thomas
+
+- Crear checklist heurístico.
+- Preparar escala de severidad.
+
+---
+
+## Hora 2 — Preparar evaluación
+
+### Carlos
+
+- Preparar guion de moderación.
+- Revisar tareas.
+
+### Karen
+
+- Revisar flujo de aplicación.
+- Preparar pensamiento en voz alta.
+
+### Bryan
+
+- Preparar cronómetro.
+- Preparar tabla de datos.
+
+### Thomas
+
+- Preparar matriz de heurísticas.
+- Preparar tabla de hallazgos.
+
+---
+
+## Hora 3 — Ejecutar prueba
+
+Los cuatro participan.
+
+### Carlos
+
+Modera.
+
+### Karen
+
+Realiza las tareas.
+
+### Bryan
+
+Registra métricas.
+
+### Thomas
+
+Observa y registra heurísticas.
+
+Después de la prueba:
+
+- Cada integrante aporta un hallazgo.
+- Cada integrante propone una mejora.
+
+---
+
+## Hora 4 — Resultados y GitHub
+
+### Carlos
+
+- Documenta hallazgo.
+- Crea Issue.
+- Sube evidencia.
+
+### Karen
+
+- Documenta experiencia.
+- Crea Issue.
+- Sube evidencia.
+
+### Bryan
+
+- Completa métricas.
+- Crea Issue.
+- Sube resultados.
+
+### Thomas
+
+- Completa heurísticas.
+- Consolida severidad.
+- Crea Issue.
+
+---
+
+## Hora 5 — Presentación y ensayo
+
+Los cuatro preparan y ensayan.
+
+Cada integrante deberá hablar aproximadamente el mismo tiempo.
+
+---
+
+# 🎤 Distribución de exposición
+
+La exposición debe repartirse de manera equilibrada.
+
+---
+
+## Carlos — Planificación + moderación
+
+Explicará:
+
+1. Pregunta inicial.
+2. Objetivo de la evaluación.
+3. Escenario.
+4. Cómo se diseñó la prueba.
+5. Moderará una parte de la demostración.
+6. Presentará su hallazgo.
+
+---
+
+## Karen — Usuario + experiencia
+
+Explicará:
+
+1. Perfil del usuario.
+2. Tareas.
+3. Pensamiento en voz alta.
+4. Ejecutará las tareas.
+5. Explicará una dificultad encontrada.
+6. Presentará su hallazgo.
+
+---
+
+## Bryan — Métricas
+
+Explicará:
+
+1. Qué métricas se utilizaron.
+2. Cómo se registraron.
+3. Resultados.
+4. Tiempo.
+5. Errores.
+6. Éxito o fracaso.
+7. Presentará su hallazgo.
+
+---
+
+## Thomas — Heurísticas + severidad
+
+Explicará:
+
+1. Evaluación heurística.
+2. Heurísticas de Nielsen.
+3. Problemas encontrados.
+4. Severidad.
+5. Backlog.
+6. Presentará su hallazgo.
+
+---
+
+# ⏲️ Tiempo de exposición recomendado
+
+Si tienen aproximadamente 10 minutos:
+
+| Integrante | Tiempo |
+|---|---:|
+| Carlos | 2:30 min |
+| Karen | 2:30 min |
+| Bryan | 2:30 min |
+| Thomas | 2:30 min |
+
+Todos tendrán aproximadamente el mismo tiempo.
+
+---
+
+# 🖥️ Presentación recomendada
+
+Para trabajar rápido se recomienda utilizar aproximadamente 8 diapositivas.
+
+---
+
+## Diapositiva 1 — Pregunta inicial
 
 ```text
-main
-│
-├── feature/carlos-documentacion
-│
-├── feature/karen-pilotaje
-│
-├── feature/bryan-evaluacion
-│
-└── feature/thomas-resultados
+¿Una interfaz que funciona técnicamente
+puede ser una mala interfaz?
 ```
+
+Habla: Carlos.
 
 ---
 
-# 👤 Rama de Carlos
-
-```bash
-git checkout -b feature/carlos-documentacion
-```
-
-Posibles commits:
-
-```text
-docs: crear estructura inicial del repositorio
-
-docs: actualizar readme del proyecto
-
-docs: agregar evidencias visuales
-
-docs: agregar conclusiones generales
-```
-
----
-
-# 👩 Rama de Karen
-
-```bash
-git checkout -b feature/karen-pilotaje
-```
-
-Posibles commits:
-
-```text
-docs: agregar perfil de participantes
-
-docs: crear consentimiento informado
-
-docs: definir tareas de usabilidad
-
-docs: documentar resultados del pilotaje
-```
-
----
-
-# 👨 Rama de Bryan
-
-```bash
-git checkout -b feature/bryan-evaluacion
-```
-
-Posibles commits:
-
-```text
-docs: agregar evaluacion heuristica
-
-docs: definir metricas de usabilidad
-
-docs: registrar resultados cuantitativos
-
-docs: agregar graficos de resultados
-```
-
----
-
-# 👨 Rama de Thomas
-
-```bash
-git checkout -b feature/thomas-resultados
-```
-
-Posibles commits:
-
-```text
-docs: crear matriz de hallazgos
-
-docs: clasificar severidad de problemas
-
-docs: agregar triangulacion de resultados
-
-docs: crear backlog de mejoras
-```
-
----
-
-# 🔄 Flujo de trabajo Git
-
-Después de realizar cambios:
-
-```bash
-git status
-```
-
-Agregar archivos:
-
-```bash
-git add .
-```
-
-Crear commit:
-
-```bash
-git commit -m "docs: descripcion del cambio"
-```
-
-Subir la rama:
-
-```bash
-git push origin nombre-de-la-rama
-```
-
-Después se deberá crear un:
-
-```text
-Pull Request
-```
-
-hacia:
-
-```text
-main
-```
-
----
-
-# 📅 Cronograma
-
-| Fecha | Actividad | Responsable |
-|---|---|---|
-| 06/10 - 11/10 | Crear repositorio y estructura | Carlos + todos |
-| 12/10 - 18/10 | Definir evaluación y participantes | Karen + Bryan |
-| 19/10 - 25/10 | Diseñar tareas y consentimiento | Karen |
-| 26/10 - 01/11 | Preparar métodos y métricas | Bryan |
-| 02/11 - 05/11 | Realizar pilotaje | Todos |
-| 06/11 - 09/11 | Aplicar evaluación definitiva | Todos |
-| 10/11 - 11/11 | Procesar métricas | Bryan |
-| 12/11 | Crear matriz de hallazgos | Thomas |
-| 13/11 | Triangulación y backlog | Thomas |
-| 14/11 | Organizar GitHub y evidencias | Carlos + todos |
-| 15/11 | Preparar presentación | Todos |
-| 16/11 | Ensayo general | Todos |
-| 17/11 - 20/11 | Exposición | Todos |
-
----
-
-# 🎤 Distribución de la exposición
-
-## Carlos
-
-### Tema
-
-**Introducción y presentación del proyecto**
-
-Carlos explicará:
-
-1. Presentación del grupo.
-2. Tema asignado.
-3. Qué es evaluación.
-4. Qué es validación.
-5. Qué proyecto se evaluó.
-6. Mostrar GitHub al final.
-7. Mostrar antes y después.
-8. Conclusión.
-
----
-
-## Karen
-
-### Tema
-
-**Usuarios, tareas y pilotaje**
-
-Karen explicará:
-
-1. Perfil de participantes.
-2. Consentimiento.
-3. Tareas.
-4. Escenario.
-5. Pilotaje.
-6. Correcciones realizadas.
-
----
-
-## Bryan
-
-### Tema
-
-**Métodos y métricas**
-
-Bryan explicará:
-
-1. Métodos utilizados.
-2. Prueba de usabilidad.
-3. Evaluación heurística.
-4. Heurísticas de Nielsen.
-5. Métricas.
-6. Resultados cuantitativos.
-
----
-
-## Thomas
-
-### Tema
-
-**Resultados y mejoras**
-
-Thomas explicará:
-
-1. Hallazgos.
-2. Severidad.
-3. Triangulación.
-4. Priorización.
-5. Backlog de mejoras.
-
----
-
-# 🖥️ Estructura propuesta para la presentación
-
-## Diapositiva 1 — Portada
-
-```text
-Evaluación y Validación de Interfaces
-Métodos de Evaluación
-
-APE 6
-
-Grupo 5
-
-Carlos
-Karen
-Bryan
-Thomas
-
-Interacción Humano–Computador
-5.º Software — Paralelo B
-2026
-```
-
-Habla: **Carlos**
-
----
-
-## Diapositiva 2 — Evaluación y validación
-
-Explicar brevemente:
-
-### Evaluación
-
-Proceso mediante el cual se identifican problemas de usabilidad y experiencia de usuario.
-
-### Validación
-
-Proceso que permite determinar si la interfaz satisface las necesidades reales de sus usuarios.
-
-Habla: **Carlos**
-
----
-
-## Diapositiva 3 — Proceso utilizado
-
-```text
-Planificación
-      ↓
-Pilotaje
-      ↓
-Evaluación
-      ↓
-Métricas
-      ↓
-Hallazgos
-      ↓
-Triangulación
-      ↓
-Backlog
-```
-
-Habla: **Carlos**
-
----
-
-## Diapositiva 4 — Participantes y tareas
-
-Mostrar:
-
-- Perfil de usuarios.
-- Número de participantes.
-- Escenario.
-- Tareas.
-
-Habla: **Karen**
-
----
-
-## Diapositiva 5 — Pilotaje
+## Diapositiva 2 — Laboratorio de usabilidad
 
 Mostrar:
 
 ```text
-Tareas iniciales
-      ↓
-Pilotaje
-      ↓
-Problemas
-      ↓
-Correcciones
-      ↓
-Evaluación final
+Carlos → Moderador
+Karen → Usuario
+Bryan → Métricas
+Thomas → Observador
 ```
 
-Habla: **Karen**
+Hablan: Carlos y Karen.
 
 ---
 
-## Diapositiva 6 — Métodos utilizados
+## Diapositiva 3 — Tareas
 
-Mostrar:
+Mostrar las tres tareas.
 
-```text
-PRUEBA DE USABILIDAD
-         VS
-EVALUACIÓN HEURÍSTICA
-```
-
-Habla: **Bryan**
+Habla: Karen.
 
 ---
 
-## Diapositiva 7 — Métricas
+## Diapositiva 4 — Prueba en vivo
+
+Karen realiza tareas.
+
+Carlos modera.
+
+Bryan registra.
+
+Thomas observa.
+
+Todos participan.
+
+---
+
+## Diapositiva 5 — Métricas
 
 Mostrar:
 
-- Tasa de éxito.
 - Tiempo.
 - Errores.
+- Éxito.
 - Intentos.
-- Observaciones.
 
-Habla: **Bryan**
-
----
-
-## Diapositiva 8 — Hallazgos
-
-Mostrar los problemas principales.
-
-Ejemplo:
-
-```text
-H01 — Navegación confusa
-Severidad: Alta
-
-H02 — Falta de feedback
-Severidad: Media
-
-H03 — Etiquetas poco claras
-Severidad: Alta
-```
-
-Habla: **Thomas**
+Habla: Bryan.
 
 ---
 
-## Diapositiva 9 — Triangulación
+## Diapositiva 6 — Evaluación heurística
 
 Mostrar:
 
-```text
-             USUARIO
-                ↓
-             PROBLEMA
-            ↙       ↘
-       MÉTRICAS   HEURÍSTICAS
-```
-
-Habla: **Thomas**
-
----
-
-## Diapositiva 10 — Backlog
-
-Mostrar:
-
-```text
-ALTA
-↓
-Correcciones críticas
-
-MEDIA
-↓
-Mejoras importantes
-
-BAJA
-↓
-Mejoras futuras
-```
-
-Habla: **Thomas**
-
----
-
-## Diapositiva 11 — Antes y después
-
-Mostrar:
-
-```text
-ANTES
-[Captura de interfaz original]
-
-            ↓
-
-DESPUÉS
-[Captura de interfaz mejorada]
-```
-
-Habla: **Carlos**
-
----
-
-## Diapositiva 12 — GitHub y conclusiones
-
-Mostrar:
-
-- Repositorio.
-- Ramas.
-- Commits.
-- Pull Requests.
+- Heurísticas incumplidas.
 - Evidencias.
-- Resultados.
+- Problemas.
 
-Habla: **Carlos**
-
----
-
-# 🗣️ Transiciones durante la exposición
-
-## Carlos → Karen
-
-> Una vez presentado el proceso de evaluación, era necesario comprobar que las tareas diseñadas fueran claras para los usuarios. Karen explicará cómo realizamos el pilotaje y la prueba de usabilidad.
+Habla: Thomas.
 
 ---
 
-## Karen → Bryan
+## Diapositiva 7 — Hallazgos y severidad
 
-> Después de corregir los problemas identificados durante el pilotaje, aplicamos los métodos de evaluación seleccionados. Bryan explicará los métodos y métricas utilizados.
+Mostrar:
 
----
+| Hallazgo | Severidad |
+|---|---:|
+| H01 | Pendiente |
+| H02 | Pendiente |
+| H03 | Pendiente |
+| H04 | Pendiente |
 
-## Bryan → Thomas
-
-> Una vez obtenidos los datos, fue necesario analizarlos para determinar cuáles problemas tenían mayor impacto sobre la experiencia de usuario. Thomas explicará los principales hallazgos.
-
----
-
-## Thomas → Carlos
-
-> Finalmente, los resultados obtenidos fueron transformados en mejoras concretas para nuestra interfaz. Carlos mostrará el resultado final y las evidencias registradas en GitHub.
+Hablan: los cuatro brevemente.
 
 ---
 
-# 📷 Evidencias necesarias
+## Diapositiva 8 — Backlog + GitHub
 
-El repositorio deberá incluir evidencias como:
+Mostrar:
 
-- Capturas del sistema antes de la evaluación.
-- Capturas del pilotaje.
-- Capturas de las pruebas.
-- Formularios o registros.
-- Tablas de métricas.
-- Matriz de hallazgos.
-- Evaluación heurística.
-- Clasificación de severidad.
-- Triangulación.
+- Issues.
 - Backlog.
-- Capturas de la interfaz corregida.
-- Evidencias de GitHub.
+- Commits.
+- Evidencias.
+
+Cada integrante muestra brevemente su Issue.
+
+---
+
+# 🧠 Dinámica QA/UX retador
+
+El Grupo 5 también funcionará como **Grupo QA/UX retador** de los grupos G1, G2, G3 y G4.
+
+El objetivo será formular:
+
+- 2 preguntas técnicas.
+- 1 objeción sustentada.
+
+---
+
+# G1 — Emoción y experiencia de usuario
+
+## Pregunta 1
+
+¿Cómo determinaron que las emociones asignadas a cada touchpoint corresponden realmente con la experiencia del usuario?
+
+## Pregunta 2
+
+¿Qué evidencia utilizaron para identificar los momentos de verdad?
+
+## Objeción
+
+Si la curva emocional fue realizada únicamente desde la perspectiva del equipo, los resultados podrían representar supuestos del diseñador y no necesariamente la experiencia real del usuario.
+
+---
+
+# G2 — Prototipos y wireframes
+
+## Pregunta 1
+
+¿Cómo demostraron la relación entre requisitos, user flow y wireframes?
+
+## Pregunta 2
+
+¿Qué criterio utilizaron para determinar la cantidad de pasos necesarios para completar cada tarea?
+
+## Objeción
+
+Un wireframe visualmente ordenado no demuestra por sí mismo una buena experiencia si no existe evidencia de que los usuarios puedan completar correctamente las tareas.
+
+---
+
+# G3 — Técnicas y herramientas de prototipado
+
+## Pregunta 1
+
+¿Qué evidencia demuestra que la versión refinada realmente mejora la experiencia?
+
+## Pregunta 2
+
+¿Cómo evaluaron feedback, estados y microinteracciones?
+
+## Objeción
+
+Una mejora visual no representa necesariamente una mejora de usabilidad si no existe evidencia obtenida mediante evaluación.
+
+---
+
+# G4 — Implementación web y móvil
+
+## Pregunta 1
+
+¿Cómo comprobaron el comportamiento de la interfaz en diferentes tamaños de pantalla?
+
+## Pregunta 2
+
+¿Qué decisiones utilizaron para mantener legibilidad, navegación y accesibilidad?
+
+## Objeción
+
+Una interfaz no puede considerarse responsive únicamente porque se adapta al tamaño de pantalla; debe mantener facilidad de interacción, legibilidad y jerarquía visual.
+
+---
+
+# 🔄 Flujo completo de la exposición
+
+```text
+Pregunta inicial
+       ↓
+Planificación
+       ↓
+Tareas
+       ↓
+Usuario
+       ↓
+Prueba de usabilidad
+       ↓
+Métricas
+       ↓
+Evaluación heurística
+       ↓
+Hallazgos
+       ↓
+Severidad
+       ↓
+Triangulación
+       ↓
+Backlog
+       ↓
+GitHub
+```
+
+---
+
+# 💡 Idea principal
+
+```text
+UNA INTERFAZ FUNCIONA
+        ≠
+UNA INTERFAZ ES USABLE
+```
+
+La evaluación permite transformar:
+
+```text
+OPINIONES
+    ↓
+EVIDENCIA
+    ↓
+HALLAZGOS
+    ↓
+MEJORAS
+```
 
 ---
 
 # ✅ Checklist final
 
-Antes de la exposición verificar:
+Antes de exponer verificar:
 
-- [ ] README terminado.
-- [ ] Los cuatro integrantes tienen commits.
-- [ ] Existen ramas individuales.
-- [ ] Se realizaron Pull Requests.
-- [ ] Existe plan de evaluación.
-- [ ] Existe consentimiento.
-- [ ] Existen tareas.
-- [ ] Se realizó pilotaje.
-- [ ] Se utilizaron al menos dos métodos.
+- [ ] Existe una pregunta inicial.
+- [ ] Existe un plan de evaluación.
+- [ ] Existen tres tareas.
+- [ ] Todos conocen su rol.
+- [ ] Se realizó una prueba.
 - [ ] Existen métricas.
-- [ ] Existen evidencias.
-- [ ] Existe matriz de hallazgos.
-- [ ] Se clasificó la severidad.
-- [ ] Se realizó triangulación.
+- [ ] Se utilizaron dos métodos.
+- [ ] Existe evaluación heurística.
+- [ ] Cada integrante aportó un hallazgo.
+- [ ] Existe severidad.
+- [ ] Existe triangulación.
 - [ ] Existe backlog.
-- [ ] Existen capturas antes/después.
-- [ ] La presentación está terminada.
-- [ ] Todos conocen su parte.
-- [ ] Se realizó al menos un ensayo completo.
+- [ ] Cada integrante creó un Issue.
+- [ ] Cada integrante tiene commits.
+- [ ] Existen evidencias.
+- [ ] Se prepararon preguntas QA/UX para G1–G4.
+- [ ] La presentación está lista.
+- [ ] Se realizó al menos un ensayo.
 
 ---
 
-# 📊 Rúbrica
+# 📊 Relación con la rúbrica
 
-| Criterio | Puntaje |
-|---|---:|
-| Dominio conceptual | 0,50 |
-| Aplicación al proyecto | 0,75 |
-| Construcción / implementación APE | 0,75 |
-| Evidencia técnica / GitHub | 0,40 |
-| Exposición y defensa | 0,60 |
-| **TOTAL** | **3,00** |
-
----
-
-# 🎯 Estrategia para obtener la máxima calificación
-
-## Dominio conceptual — 0,50
-
-Demostrar conocimiento de:
-
-- Evaluación.
-- Validación.
-- Usabilidad.
-- Heurísticas.
-- Métricas.
-- Severidad.
-- Triangulación.
-
-## Aplicación al proyecto — 0,75
-
-Todas las técnicas deberán aplicarse al proyecto real del grupo.
-
-## Construcción del APE — 0,75
-
-Se deberá demostrar:
-
-```text
-Planificación
-+
-Pilotaje
-+
-Evaluación
-+
-Análisis
-+
-Priorización
-```
-
-## Evidencia técnica / GitHub — 0,40
-
-El repositorio deberá contener:
-
-- Commits.
-- Ramas.
-- Pull Requests.
-- Documentación.
-- Evidencias.
-- Resultados.
-
-## Exposición y defensa — 0,60
-
-Los cuatro integrantes deberán:
-
-- Participar.
-- Conocer su parte.
-- Evitar leer completamente las diapositivas.
-- Explicar las decisiones tomadas.
-- Poder responder preguntas del docente.
+| Criterio | Cómo se demuestra |
+|---|---|
+| Dominio conceptual | Métodos, métricas, heurísticas y severidad |
+| Aplicación al proyecto | Prueba realizada sobre la interfaz |
+| Construcción APE | Tareas, evaluación, análisis y backlog |
+| Evidencia técnica / GitHub | Commits, Issues, documentación y resultados |
+| Exposición y defensa | Participación equilibrada de los cuatro |
 
 ---
 
-# 💡 Idea principal del proyecto
+# 🏁 Conclusión
 
-Todo el trabajo del Grupo 5 puede resumirse mediante:
+Una interfaz puede funcionar correctamente desde el punto de vista técnico y, al mismo tiempo, generar una mala experiencia.
 
-```text
-PLANIFICAMOS
-      ↓
-PILOTEAMOS
-      ↓
-EVALUAMOS
-      ↓
-MEDIMOS
-      ↓
-ANALIZAMOS
-      ↓
-TRIANGULAMOS
-      ↓
-PRIORIZAMOS
-      ↓
-MEJORAMOS
-```
+La prueba de usabilidad permite observar cómo interactúa una persona con el sistema, mientras que la evaluación heurística permite identificar problemas mediante principios de diseño.
 
----
+El uso conjunto de tareas, métricas, observaciones y heurísticas permite obtener evidencia más sólida.
 
-# 📌 Producto final
-
-Al terminar el APE 6 se deberá contar con:
-
-- Plan de evaluación.
-- Consentimiento.
-- Tareas.
-- Pilotaje.
-- Prueba de usabilidad.
-- Evaluación heurística.
-- Métricas.
-- Evidencias.
-- Matriz de hallazgos.
-- Clasificación de severidad.
-- Triangulación.
-- Backlog de mejoras.
-- Interfaz mejorada.
-- Repositorio GitHub.
-- Presentación final.
+Finalmente, los problemas identificados se clasifican por severidad y se convierten en mejoras concretas dentro de un backlog de GitHub.
 
 ---
 
